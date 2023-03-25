@@ -26,7 +26,7 @@ streamlit.dataframe(my_data_rows)
 
 streamlit.write('THanks for adding my fruit', add_my_fruit)
 
-my_cur-execute("insert into fruit_load_list values ('from streamlit')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
 # Let's put a pick list here so they can pick the fruit they want to include 
